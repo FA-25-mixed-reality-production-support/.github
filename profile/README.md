@@ -1,25 +1,61 @@
-## Ferienakademie 2025
+<p align="center">
+  <img src=".assets/light.png#gh-light-mode-only" width="75%" />
+  <img src=".assets/dark.png#gh-dark-mode-only" width="75%" />
+</p>
+<br clear="both"/>
+
+### Ferienakademie 2025:
 # Context-based mixed reality support for production
 
-TODO: add short summary here
+The goal of the Ferienakademie 2025 is to develop a flexible application which visualizes work instructions.
+Input: Textual instructions, 3D data, construction data, component plan
+Output: Video, cinematics model for AR & VR applications
+The goal is to flexibly generate a visualized output form based on the given inputs and an appropriate GenAI solution to enable industry 5.0 guidance in real world troubleshooting scenarios and manual work in production environments.
+
 ## Course description
+
+<p align="center">
+  <img src=".assets/overview.png" width="75%" />
+</p>
+<br clear="both"/>
+
+The solution can be applied in the following areas:
+
+- Manual workplaces for complex tasks
+
+- Maintenance actions during unplanned downtimes
+
+- Work scheduling to enable flexible task switching
+
+- Spontaneous handovers during shift changes
+
+- Remote training
+
+## Customers
+
+TODO: add customers
 
 ## Course Team
 
 ### Instructors
 
+- **Prof. Dr. Bernd Brügge**  
+    Technical University of Munich  
+    Applied Software Engineering
+
+- **Prof. Dr.Jörg Franke**
+    Friedrich-Alexander-Universität
+    Fertigungsautomatisierung und Produktionssystematik
+
 ### Guest Lecturers
+
+- **Felix Mahr, M.Sc.**
+    Friedrich-Alexander-Universität
+    Fertigungsautomatisierung und Produktionssystematik
 
 ### Research Associates
 
-## Industry Partners
-<!--
-
-**Here are some ideas to get you started:**
-
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+- **Leander Pfeiffer, B.Sc.**
+    Technical University of Munich
+    Mechanical Engineering
+    
