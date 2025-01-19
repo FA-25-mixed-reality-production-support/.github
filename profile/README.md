@@ -43,19 +43,19 @@ TODO: add customers
     Technical University of Munich  
     Applied Software Engineering
 
-- **Prof. Dr.Jörg Franke**
-    Friedrich-Alexander-Universität
+- **Prof. Dr.Jörg Franke**  
+    Friedrich-Alexander-Universität  
     Fertigungsautomatisierung und Produktionssystematik
 
 ### Guest Lecturers
 
-- **Felix Mahr, M.Sc.**
-    Friedrich-Alexander-Universität
+- **Felix Mahr, M.Sc.**  
+    Friedrich-Alexander-Universität  
     Fertigungsautomatisierung und Produktionssystematik
 
 ### Research Associates
 
-- **Leander Pfeiffer, B.Sc.**
-    Technical University of Munich
+- **Leander Pfeiffer, B.Sc.**  
+    Technical University of Munich  
     Mechanical Engineering
     
