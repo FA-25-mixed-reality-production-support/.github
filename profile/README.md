@@ -5,11 +5,11 @@
 <br clear="both"/>
 
 ### Ferienakademie 2025:
-# Context-based mixed reality support for production
+# Context-Based Mixed Reality Support for Production
 
 The goal of the Ferienakademie 2025 is to develop a flexible application which visualizes work instructions.
-Input: Textual instructions, 3D data, construction data, component plan
-Output: Video, cinematics model for AR & VR applications
+_Input_: Textual instructions, 3D data, construction data, component plan
+_Output_: Video, cinematics model for AR & VR applications
 The goal is to flexibly generate a visualized output form based on the given inputs and an appropriate GenAI solution to enable industry 5.0 guidance in real world troubleshooting scenarios and manual work in production environments.
 
 ## Course description
