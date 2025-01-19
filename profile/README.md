@@ -43,7 +43,7 @@ TODO: add customers
     Technical University of Munich  
     Applied Software Engineering
 
-- **Prof. Dr.Jörg Franke**  
+- **Prof. Dr. Jörg Franke**  
     Friedrich-Alexander-Universität  
     Fertigungsautomatisierung und Produktionssystematik
 
