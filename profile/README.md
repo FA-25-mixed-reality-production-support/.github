@@ -49,12 +49,6 @@ Current developments of AI have already protrudet well into personal lives and a
   </tbody>
 </table>
 
-
-| Visual Twin Generation  | Remote Maintenance Planning | Real Time Quality Control | Predictive maintanance |
-|:-----------------------|:-----------------------|:-----------------------|:-----------------------|
-| In remote equipment operations, monitoring the state of the equipment is crucial. For example, consider a wind turbine or a puzzle-parking system. The goal of this use case is to create a visual twin of various environments by combining 3D files (e.g., CAD models used in equipment design) with images captured by autonomous remote drones. This virtual representation enables real-time monitoring of the environment using VR. Additionally, any changes to the equipment, such as damage or planned modifications, should be documented. | Planning maintenance procedures for remote equipment can be challenging, especially when various factors are unknown. In this use case, a process should be developed to automatically generate a repair plan by integrating information from multiple stakeholders, including a digital twin, expert engineering knowledge, and input from local stakeholders. The process should also account for the possibility that the equipment might be custom-built, requiring tailored solutions. | In repair processes, it is common to apply the four-eye principle as a quality control measure. The goal of this use case is to replace two of those eyes with AI-powered cameras that record and document the repair process. This documentation should then be compared to the repair plan to evaluate the accuracy and quality of the repairs. | For large, moving machines, different parts wear out at varying intervals. The aim of this use case is to combine various data sources, such as machine logs, repair documentation, and reports of previous failures, to predict future damages. By identifying potential issues in advance, downtime can be minimized by applying preventative measures or patches beforehand. |
-
-
 ## Customers
 
 TODO: add customers
