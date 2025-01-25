@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>README.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<p align="center">
+  <img src="file:///Users/leanderpfeiffer/Desktop/.github/profile/.assets/light.png%23gh-light-mode-only" width="75%">
+  <img src="file:///Users/leanderpfeiffer/Desktop/.github/profile/.assets/dark.png%23gh-dark-mode-only" width="75%">
+</p>
+<br clear="both">
+<h3 id="ferienakademie-2025">Ferienakademie 2025</h3>
+<h1 id="context-based-mixed-reality-support-for-production">Context-based mixed reality support for production</h1>
+<p>In this course we will build two prototype for a failure management system. We plan to address two domains: dynamic parking and digital health.</p>
+<p>The first project caused puzzle parking adresses the problem of bin packing - how can you arrange parking space in an optimal, similar to valet parking, but in 3D - the parking project consist of several use cases:</p>
+<p>describe parking lot: each parking lot consists of moving platforms, which can be rearranged in 3D space to minimze the amount of space taken.</p>
+<p>Current developments of AI have already protrudet well into personal lives and are starting to influence the way we work. The goal of this Ferienakademie is to investigate different inovations in the realm of maintanance for industrial inspections.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Visual Twin Generation</th>
+<th style="text-align:left">Remote Maintenance Planning</th>
+<th style="text-align:left">Real Time Quality Control</th>
+<th style="text-align:left">Predictive maintanance</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">In remote equipment operations, monitoring the state of the equipment is crucial. For example, consider a wind turbine or a puzzle-parking system. The goal of this use case is to create a visual twin of various environments by combining 3D files (e.g., CAD models used in equipment design) with images captured by autonomous remote drones. This virtual representation enables real-time monitoring of the environment using VR. Additionally, any changes to the equipment, such as damage or planned modifications, should be documented.</td>
+<td style="text-align:left">Planning maintenance procedures for remote equipment can be challenging, especially when various factors are unknown. In this use case, a process should be developed to automatically generate a repair plan by integrating information from multiple stakeholders, including a digital twin, expert engineering knowledge, and input from local stakeholders. The process should also account for the possibility that the equipment might be custom-built, requiring tailored solutions.</td>
+<td style="text-align:left">In repair processes, it is common to apply the four-eye principle as a quality control measure. The goal of this use case is to replace two of those eyes with AI-powered cameras that record and document the repair process. This documentation should then be compared to the repair plan to evaluate the accuracy and quality of the repairs.</td>
+<td style="text-align:left">For large, moving machines, different parts wear out at varying intervals. The aim of this use case is to combine various data sources, such as machine logs, repair documentation, and reports of previous failures, to predict future damages. By identifying potential issues in advance, downtime can be minimized by applying preventative measures or patches beforehand.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="remote-inspection">Remote inspection</h3>
+<p>Drone creates digital map of the puzzle parking lot using SLAM technology. Due to failures the map needs to constantly updated and compared with a 3D model which then gets updated. Similarly, planned changes to the parking box should be visualized beforehand. For any unplanned changes notifications will be send to the specific users. The people affected by the changes are notified automatically. (for both planned and unplanned changes)</p>
+<h3 id="remote-management-and-maintenance-planning">Remote management and Maintenance planning</h3>
+<p>In this use case the actor is a manager for several puzzle-parking lots. The parking manager has a 3D digital twin of the real parking lot to get an overview on possible bottlenecks and necessary repairs. The manager needs to manage failures within the system</p>
+<p>Visionary scenario: the manager receives a notice about a malfunction in a parking system. A remote Maintenance worker and manager can then inspect the failure of the system using argumented reality remotly to plan the repair. A repair plan is devised, consisting of navigation to the site, a material list and an estimated time to repair, all of which is optimized using previous failures.</p>
+<p>(Translate use case to medical issues)</p>
+<h3 id="tumor-conference">Tumor conference</h3>
+<p>We model the repair process similar to a tumor conference known from medicine. The purpose of the tumor conference is to plan a operation involving several stakeholders. Several specialists are required.</p>
+<p>The stakeholders for the puzzle parking could be:</p>
+<ul>
+<li>
+<p>The house inhabitants and their time constrains</p>
+</li>
+<li>
+<p>Mantanance workers that have their time constraints</p>
+</li>
+<li>
+<p>Mobile platform manager to supervise the process</p>
+</li>
+<li>
+<p>Availability of engineering professionals to help in case of unforeseen platforms</p>
+</li>
+</ul>
+<h3 id="4-eyed-repair-inspection">4 eyed repair inspection</h3>
+<p>Automized creation of repair protocol which gets incorporated into the inspection map</p>
+<h3 id="prediction-of-maintanance">Prediction of maintanance</h3>
+<p>Based on the live data of the environment, we want to predict failures before they happen</p>
+<h3 id="rearangement-of-available-space-in-real-time">Rearangement of available space in real time</h3>
+<p>The goal of the Ferienakademie 2025 is to develop a flexible application which visualizes work instructions.<br>
+<em>Input</em>: Textual instructions, 3D data, construction data, component plan<br>
+<em>Output</em>: Video, cinematics model for AR &amp; VR applications<br>
+The goal is to flexibly generate a visualized output form based on the given inputs and an appropriate GenAI solution to enable industry 5.0 guidance in real world troubleshooting scenarios and manual work in production environments.</p>
+<h2 id="course-description">Course description</h2>
+<p align="center">
+  <img src="file:///Users/leanderpfeiffer/Desktop/.github/profile/.assets/overview.png" width="75%">
+</p>
+<br clear="both">
+<p>The solution can be applied in the following areas:</p>
+<ul>
+<li>
+<p>Manual workplaces for complex tasks</p>
+</li>
+<li>
+<p>Maintenance actions during unplanned downtimes</p>
+</li>
+<li>
+<p>Work scheduling to enable flexible task switching</p>
+</li>
+<li>
+<p>Spontaneous handovers during shift changes</p>
+</li>
+<li>
+<p>Remote training</p>
+</li>
+</ul>
+<h2 id="customers">Customers</h2>
+<p>TODO: add customers</p>
+<h2 id="course-team">Course Team</h2>
+<h3 id="instructors">Instructors</h3>
+<ul>
+<li>
+<p><strong>Prof. Dr. Bernd Brügge</strong><br>
+Technical University of Munich<br>
+Applied Software Engineering</p>
+</li>
+<li>
+<p><strong>Prof. Dr. Jörg Franke</strong><br>
+Friedrich-Alexander-Universität<br>
+Fertigungsautomatisierung und Produktionssystematik</p>
+</li>
+</ul>
+<h3 id="guest-lecturers">Guest Lecturers</h3>
+<ul>
+<li><strong>Felix Mahr, M.Sc.</strong><br>
+Friedrich-Alexander-Universität<br>
+Fertigungsautomatisierung und Produktionssystematik</li>
+</ul>
+<h3 id="research-associates">Research Associates</h3>
+<ul>
+<li><strong>Leander Pfeiffer, B.Sc.</strong><br>
+Technical University of Munich<br>
+Mechanical Engineering</li>
+</ul>
+
+</body>
+</html>

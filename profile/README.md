@@ -8,34 +8,6 @@
 
 # Context-based mixed reality support for production
 
-In this course we will build two prototype for a failure management system. We plan to address two domains: dynamic parking and digital health.
-
-The first project caused puzzle parking adresses the problem of bin packing - how can you arrange parking space in an optimal, similar to valet parking, but in 3D - the parking project consist of several use cases:
-
-describe parking lot: each parking lot consists of moving platforms, which can be rearranged in 3D space to minimze the amount of space taken.
-
-### Remote inspection
-
-Drone creates digital map of the puzzle parking lot using SLAM technology. Due to failures the map needs to constantly updated and compared with a 3D model which then gets updated. Similarly, planned changes to the parking box should be visualized beforehand. For any unplanned changes notifications will be send to the specific users. The people affected by the changes are notified automatically. (for both planned and unplanned changes)
-
-### Remote management and Maintenance planning
-
-In this use case the actor is a manager for several puzzle-parking lots. The parking manager has a 3D digital twin of the real parking lot to get an overview on possible bottlenecks and necessary repairs. The manager needs to manage failures within the system
-
-Visionary scenario: the manager receives a notice about a malfunction in a parking system. A remote Maintenance worker and manager can then inspect the failure of the system using argumented reality remotly to plan the repair. A repair plan is devised, consisting of navigation to the site, a material list and an estimated time to repair, all of which is optimized using previous failures.
-
-(Translate use case to medical issues)
-
-### 4 eyed repair inspection
-
-### Tumor conference
-
-We model the repair process similar to a tumor conference known from medicine. The purpose of the tumor conference is to plan a operation involving several stakeholders. Several specialists are required.
-
-### Optimization of available space
-
-### Rearangement of available space in real time
-
 The goal of the Ferienakademie 2025 is to develop a flexible application which visualizes work instructions.  
 _Input_: Textual instructions, 3D data, construction data, component plan  
 _Output_: Video, cinematics model for AR & VR applications  
@@ -48,17 +20,12 @@ The goal is to flexibly generate a visualized output form based on the given inp
 </p>
 <br clear="both"/>
 
-The solution can be applied in the following areas:
+Current developments of AI have already protrudet well into personal lives and are starting to influence the way we work. The goal of this Ferienakademie is to investigate different inovations in the realm of maintanance for industrial inspections. One domain in which these use cases could be applied is the puzzle-parking environment put forward by our customer linova, in which the automated 3D garages are typically located remote and may be highly customized depending on the environment and stakeholder requirements
 
-- Manual workplaces for complex tasks
+| Visual Twin Generation | Remote Maintenance Planning | Real Time Quality Control | Predictive maintanance |
+|:-----------------------|:-----------------------|:-----------------------|:-----------------------|
+| In remote equipment operations, monitoring the state of the equipment is crucial. For example, consider a wind turbine or a puzzle-parking system. The goal of this use case is to create a visual twin of various environments by combining 3D files (e.g., CAD models used in equipment design) with images captured by autonomous remote drones. This virtual representation enables real-time monitoring of the environment using VR. Additionally, any changes to the equipment, such as damage or planned modifications, should be documented. | Planning maintenance procedures for remote equipment can be challenging, especially when various factors are unknown. In this use case, a process should be developed to automatically generate a repair plan by integrating information from multiple stakeholders, including a digital twin, expert engineering knowledge, and input from local stakeholders. The process should also account for the possibility that the equipment might be custom-built, requiring tailored solutions. | In repair processes, it is common to apply the four-eye principle as a quality control measure. The goal of this use case is to replace two of those eyes with AI-powered cameras that record and document the repair process. This documentation should then be compared to the repair plan to evaluate the accuracy and quality of the repairs. | For large, moving machines, different parts wear out at varying intervals. The aim of this use case is to combine various data sources, such as machine logs, repair documentation, and reports of previous failures, to predict future damages. By identifying potential issues in advance, downtime can be minimized by applying preventative measures or patches beforehand. |
 
-- Maintenance actions during unplanned downtimes
-
-- Work scheduling to enable flexible task switching
-
-- Spontaneous handovers during shift changes
-
-- Remote training
 
 ## Customers
 
