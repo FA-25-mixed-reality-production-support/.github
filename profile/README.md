@@ -25,10 +25,10 @@ Current developments of AI have already protrudet well into personal lives and a
 <table style="width: 100%; table-layout: fixed; border-collapse: collapse;">
   <thead>
     <tr>
-      <th style="border: 1px solid black; padding: 10px;">Visual Twin Generation</th>
-      <th style="border: 1px solid black; padding: 10px;">Remote Maintenance Planning</th>
-      <th style="border: 1px solid black; padding: 10px;">Real Time Quality Control</th>
-      <th style="border: 1px solid black; padding: 10px;">Predictive Maintenance</th>
+      <th style="width: 25%; border: 1px solid black; padding: 10px;">Visual Twin Generation</th>
+      <th style="width: 25%; border: 1px solid black; padding: 10px;">Remote Maintenance Planning</th>
+      <th style="width: 25%; border: 1px solid black; padding: 10px;">Real Time Quality Control</th>
+      <th style="width: 25%; border: 1px solid black; padding: 10px;">Predictive Maintenance</th>
     </tr>
   </thead>
   <tbody>
