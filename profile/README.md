@@ -67,12 +67,12 @@ TODO: add customers
 
 ### Guest Lecturers
 
-- **TBD**
-    Title
+- **TBD**  
+    Title  
     Siemens Healthineers
 
-- **Dr. Andreas Löhr**
-    Chief Technical Officer
+- **Dr. Andreas Löhr**  
+    Chief Technical Officer  
     Linova
 
 ### Research Associates
