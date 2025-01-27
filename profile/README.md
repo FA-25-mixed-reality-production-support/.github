@@ -51,7 +51,7 @@ Current developments of AI have already protrudet well into personal lives and a
 
 ## Customers
 
-TODO: add customers
+TODO: add customer logos
 
 ## Course Team
 
