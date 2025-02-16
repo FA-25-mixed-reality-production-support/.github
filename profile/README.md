@@ -4,7 +4,7 @@
 </p>
 <br clear="both"/>
 
-### Ferienakademie 2025
+### Ferienakademie 2025 (Draft)
 
 # Context-based mixed reality support for production
 
@@ -20,7 +20,118 @@ The goal is to flexibly generate a visualized output form based on the given inp
 </p>
 <br clear="both"/>
 
-Current developments of AI have already protrudet well into personal lives and are starting to influence the way we work. The goal of this Ferienakademie is to investigate different inovations in the realm of maintanance for industrial environments. One domain in which these use cases could be applied is the puzzle-parking environment put forward by our customer linova, in which the automated 3D garages are typically located remote and may be highly customized depending on the environment and stakeholder requirements
+### Unlocking the Future of Industrial Training & Maintenance with AI and VR
+
+Artificial intelligence is rapidly transforming both our personal lives and the way we work. In this Ferienakademie, we will explore groundbreaking innovations in industrial training and maintenance, leveraging the power of generative AI, VR, and other cutting-edge technologies. Our goal is to assess two real-world scenarios proposed by our industry partners, Siemens Healthineers and Linova, bringing visionary ideas to life.
+
+A detailed overview of these exciting scenarios is provided below.
+
+Participants will work in agile, self-organized teams, fostering an environment of collaboration and independent problem-solving. While prior experience with AI or VR is not required, students should bring a strong interest in emerging technologies and a willingness to engage with new concepts. This project offers an opportunity to develop practical skills, exchange knowledge with peers, and contribute to innovative solutions in a dynamic and interdisciplinary setting.
+
+<details>
+  <summary>Visionary Scenrio 1: **Generative AI for Custom AR/VR Training Content** (Siemens Healthineers)</summary>
+  
+**Status Quo**: In a typical manufacturing environment, work instructions are
+indispensable for guiding the assembly process. These instructions are usually
+provided in the form of PDF documents displayed on a screen. Occasionally, these
+documents may include some animations to aid understanding. However, despite the
+availability of other types of information such as 3D files, these are rarely integrated
+into the instructions. The primary obstacle to incorporating new visualization
+techniques, like augmented reality (AR) or virtual reality (VR), into assembly
+instructions is the significant effort and time required to create such content. The
+process of developing detailed and interactive visual aids is labor-intensive and often
+requires specialized skills and software, making it a less feasible option for many
+manufacturing environments.
+In many cases, the creation of these visual aids involves multiple steps and a high
+level of coordination between different departments. For instance, engineers may
+need to create detailed 3D models, which then have to be converted into animations
+by graphic designers. These animations must be meticulously synchronized with the
+textual instructions to ensure clarity and coherence. This multi-step process can be
+time-consuming and costly, often leading to delays in training and implementation.
+Additionally, the static nature of PDF documents means that they cannot easily be
+updated or customized to meet the specific needs of different users or scenarios,
+further limiting their effectiveness.
+
+**Vision**: Imagine a scenario where existing documents, such as PDF files, images,
+and 3D models, can be seamlessly used as input data to generate advanced
+visualizations. A generative AI approach can leverage this information to create the
+desired output effortlessly. This vision includes the following capabilities:
+
+- Input data: The system can accept various types of input data, including PDF
+documents, Word files, and 3D models in formats like JT and STEP. This
+flexibility ensures that users can utilize the resources they already have
+without needing to create new materials from scratch.
+
+- Output options: Users have the flexibility to select the type of output they want
+to create, whether it be animated video-based reality, augmented reality (AR),
+or virtual reality (VR). This allows for a highly customizable training experience
+that can be tailored to the specific needs and preferences of the users.
+
+- Scope selection: The system allows users to choose the scope of the output,
+such as new employee training that the generated content is relevant and focused, whether it is intended for
+onboarding new employees or refining the skills of experienced workers.
+
+- Toolset integration: The vision includes the use of advanced tools like Vision
+Pro and other VR/AR toolsets to enhance the training experience. These tools
+provide immersive and interactive learning environments that can significantly
+improve comprehension and retention.
+
+- Audio and text output: The system can generate both audio and text outputs
+within the animated information, providing a comprehensive learning
+experience. This multimodal approach caters to different learning styles and
+ensures that users can absorb the information in the most effective way
+possible.
+- Language options: Users can individually select the output language, with
+options including at least German, English, Chinese, and French. This feature
+ensures that the training materials are accessible to a diverse workforce,
+promoting inclusivity and understanding across different linguistic
+backgrounds.
+
+**Visonary Scenario**: Today, I want to learn a new process in
+manufacturing and use Vision Pro. After selecting the language, I am directly trained
+for the new processes. For example, a new employee starts in the assembly
+department. They can choose their preferred language and the scope of training they
+need. Vision Pro then generates a VR training session that guides them step-by-step
+through the assembly process, complete with animated instructions and audio
+explanations. The employee can go through the training at their own pace and repeat
+it as needed to ensure they fully understand the process.
+Another example could be a scenario where an experienced worker needs to learn a
+new assembly technique. Instead of reading through lengthy PDF documents or
+static images, they can use Vision Pro to access an interactive AR session. This
+session overlays the new instructions onto their real-world environment, showing
+them exactly how to perform each step in real-time. This not only makes the learning
+process more engaging but also significantly reduces the time required to master
+new techniques.
+Consider a situation where a manufacturing plant is introducing a new product line
+that requires different assembly procedures. Traditionally, this would involve creating
+new PDF documents, conducting in-person training sessions, and potentially halting
+production to ensure all employees are adequately trained. With Vision Pro, the
+transition can be much smoother. The existing documentation and 3D models can be
+fed into the system, which then generates comprehensive AR or VR training
+modules. Employees can access these modules on their devices, allowing them to
+learn the new procedures without disrupting their workflow. The interactive nature of
+the training ensures that employees can practice the new techniques in a virtual environment, reducing the risk of errors when they apply their skills on the actual
+production line.
+Furthermore, Vision Pro can be used for ongoing skill development and quality
+control. For instance, employees can periodically access refresher courses to stay
+updated on best practices and new methodologies. Supervisors can use the system
+to monitor progress and identify areas where additional training may be needed. This
+continuous learning approach helps maintain high standards of quality and efficiency
+in the manufacturing process.
+
+**In summary**, the integration of Vision Pro and similar VR/AR toolsets represents a
+significant advancement in the way manufacturing training is conducted. By
+leveraging generative AI to transform existing documents and models into interactive
+and immersive training experiences, companies can overcome the limitations of
+traditional methods. This not only enhances the learning experience for employees
+but also improves overall productivity and quality in the manufacturing process.
+
+</details>
+
+<details>
+<summary>Visionary Scenario 2: **AI-Powered Maintenance Assessment with VR Integration** (Linova)</summary>
+
+One domain in which these use cases could be applied is the puzzle-parking environment put forward by our customer linova, in which the automated 3D garages are typically located remote and may be highly customized depending on the environment and stakeholder requirements
 
 <table>
   <thead>
@@ -49,9 +160,17 @@ Current developments of AI have already protrudet well into personal lives and a
   </tbody>
 </table>
 
+</details>
+
 ## Customers
 
-TODO: add customer logos
+### Siemens Healhineers
+
+Siemens Healthineers is a leading global medical technology company specializing in **innovative healthcare solutions**. They develop and manufacture **advanced imaging, diagnostic, and therapeutic systems**, including MRI and CT scanners, laboratory diagnostics, and robotic-assisted surgery technologies. Their focus is on improving **patient outcomes, enhancing healthcare efficiency, and driving digital transformation** through AI-powered diagnostics, automation, and data-driven decision-making. With a strong emphasis on **precision medicine and personalized healthcare**, Siemens Healthineers plays a key role in shaping the future of medical technology.
+
+### Linova
+
+Linova is a **software consulting company** based in Munich, specializing in **custom software development** and **digital transformation solutions** for businesses across various industries. They provide **innovative software solutions** that optimize business processes, enhance operational efficiency, and support digital growth. With expertise in areas such as **enterprise software, cloud computing, and data integration**, Linova helps organizations leverage technology to achieve their strategic goals. By focusing on **agile methodologies** and **collaborative partnerships**, Linova delivers tailored solutions that drive long-term success and innovation for their clients.
 
 ## Course Team
 
@@ -67,9 +186,9 @@ TODO: add customer logos
 
 ### Guest Lecturers
 
-- **TBD**  
-    Title  
-    Siemens Healthineers
+- **Dr. Jens Fürst**  
+    Principal Key Expert Digitalization  
+    Siemens Healthineers AG
 
 - **Dr. Andreas Löhr**  
     Chief Technical Officer  
