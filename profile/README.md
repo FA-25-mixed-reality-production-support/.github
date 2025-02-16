@@ -29,8 +29,8 @@ A detailed overview of these exciting scenarios is provided below.
 Participants will work in agile, self-organized teams, fostering an environment of collaboration and independent problem-solving. While prior experience with AI or VR is not required, students should bring a strong interest in emerging technologies and a willingness to engage with new concepts. This project offers an opportunity to develop practical skills, exchange knowledge with peers, and contribute to innovative solutions in a dynamic and interdisciplinary setting.
 
 <details>
-  <summary>Visionary Scenrio 1: **Generative AI for Custom AR/VR Training Content** (Siemens Healthineers)</summary>
-  
+  <summary>Visionary Scenrio 1: <b>Generative AI for Custom AR/VR Training Content</b> (Siemens Healthineers)</summary>
+  <br>
 **Status Quo**: In a typical manufacturing environment, work instructions are
 indispensable for guiding the assembly process. These instructions are usually
 provided in the form of PDF documents displayed on a screen. Occasionally, these
@@ -129,8 +129,8 @@ but also improves overall productivity and quality in the manufacturing process.
 </details>
 
 <details>
-<summary>Visionary Scenario 2: **AI-Powered Maintenance Assessment with VR Integration** (Linova)</summary>
-
+<summary>Visionary Scenario 2: <b>AI-Powered Maintenance Assessment with VR Integration</b> (Linova)</summary>
+<br>
 One domain in which these use cases could be applied is the puzzle-parking environment put forward by our customer linova, in which the automated 3D garages are typically located remote and may be highly customized depending on the environment and stakeholder requirements
 
 <table>
