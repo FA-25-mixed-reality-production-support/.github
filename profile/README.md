@@ -31,6 +31,7 @@ Participants will work in agile, self-organized teams, fostering an environment 
 <details>
   <summary>Visionary Scenrio 1: <b>Generative AI for Custom AR/VR Training Content</b> (Siemens Healthineers)</summary>
   <br>
+  
 **Status Quo**: In a typical manufacturing environment, work instructions are
 indispensable for guiding the assembly process. These instructions are usually
 provided in the form of PDF documents displayed on a screen. Occasionally, these
