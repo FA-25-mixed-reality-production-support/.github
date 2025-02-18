@@ -10,8 +10,8 @@
 
 The goal of the Ferienakademie 2025 is to develop a flexible application which visualizes work instructions.  
 _Input_: Textual instructions, 3D data, construction data, component plan  
-_Output_: Video, cinematics model for AR & VR applications  
-The goal is to flexibly generate a visualized output form based on the given inputs and an appropriate GenAI solution to enable industry 5.0 guidance in real world troubleshooting scenarios and manual work in production environments.
+_Output_: Video, cinematics model for Augmented & Virtual Reality applications  
+The goal is to flexibly generate a visualized output form based on the given inputs and an appropriate generative Artificial Intelligence solution to enable industry 5.0 guidance in real world troubleshooting scenarios and manual work in production environments.
 
 ## Course description
 
@@ -20,16 +20,16 @@ The goal is to flexibly generate a visualized output form based on the given inp
 </p>
 <br clear="both"/>
 
-### Unlocking the Future of Industrial Training & Maintenance with AI and VR
+### Unlocking the Future of Industrial Training & Maintenance with Artificial Intelligence and Virtual Reality
 
-Artificial intelligence is rapidly transforming both our personal lives and the way we work. In this Ferienakademie, we will explore groundbreaking innovations in industrial training and maintenance, leveraging the power of generative AI, VR, and other cutting-edge technologies. Our goal is to assess two real-world scenarios proposed by our industry partners, Siemens Healthineers and Linova, bringing visionary ideas to life.
+Artificial intelligence is rapidly transforming both our personal lives and the way we work. In this Ferienakademie, we will explore groundbreaking innovations in industrial training and maintenance, leveraging the power of generative Artificial Intelligence (AI), Virtual Reality (VR), and other cutting-edge technologies. Our goal is to assess two real-world scenarios proposed by our industry partners, Siemens Healthineers and Linova, bringing visionary ideas to life.
 
 A detailed overview of these exciting scenarios is provided below.
 
 Participants will work in agile, self-organized teams, fostering an environment of collaboration and independent problem-solving. While prior experience with AI or VR is not required, students should bring a strong interest in emerging technologies and a willingness to engage with new concepts. This project offers an opportunity to develop practical skills, exchange knowledge with peers, and contribute to innovative solutions in a dynamic and interdisciplinary setting.
 
 <details>
-  <summary>Visionary Scenrio 1: <b>Generative AI for Custom AR/VR Training Content</b> (Siemens Healthineers)</summary>
+  <summary>Visionary Scenrio 1: <b>Generative Aritifical Intelligence for Custom Argumented/Virtual Reality Training Content</b> (Siemens Healthineers)</summary>
   <br>
   
 **Status Quo**: In a typical manufacturing environment, work instructions are
@@ -130,7 +130,7 @@ but also improves overall productivity and quality in the manufacturing process.
 </details>
 
 <details>
-<summary>Visionary Scenario 2: <b>AI-Powered Maintenance Assessment with VR Integration</b> (Linova)</summary>
+<summary>Visionary Scenario 2: <b>Artificial Intelligence-Powered Maintenance Assessment with Virtual Reality Integration</b> (Linova)</summary>
 <br>
 One domain in which these use cases could be applied is the puzzle-parking environment put forward by our customer linova, in which the automated 3D garages are typically located remote and may be highly customized depending on the environment and stakeholder requirements
 
