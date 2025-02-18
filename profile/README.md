@@ -29,7 +29,7 @@ A detailed overview of these exciting scenarios is provided below.
 Participants will work in agile, self-organized teams, fostering an environment of collaboration and independent problem-solving. While prior experience with AI or VR is not required, students should bring a strong interest in emerging technologies and a willingness to engage with new concepts. This project offers an opportunity to develop practical skills, exchange knowledge with peers, and contribute to innovative solutions in a dynamic and interdisciplinary setting.
 
 <details>
-  <summary>Visionary Scenrio 1: <b>Generative Aritifical Intelligence for Custom Argumented/Virtual Reality Training Content</b> (Siemens Healthineers)</summary>
+  <summary>Visionary Scenario 1: <b>Generative Artifical Intelligence for Custom Augmented/Virtual Reality Training Content</b> (Siemens Healthineers)</summary>
   <br>
   
 **Status Quo**: In a typical manufacturing environment, work instructions are
@@ -88,7 +88,7 @@ ensures that the training materials are accessible to a diverse workforce,
 promoting inclusivity and understanding across different linguistic
 backgrounds.
 
-**Visonary Scenario**: Today, I want to learn a new process in
+**Visionary Scenario**: Today, I want to learn a new process in
 manufacturing and use Vision Pro. After selecting the language, I am directly trained
 for the new processes. For example, a new employee starts in the assembly
 department. They can choose their preferred language and the scope of training they
@@ -165,7 +165,7 @@ One domain in which these use cases could be applied is the puzzle-parking envir
 
 ## Customers
 
-### Siemens Healhineers
+### Siemens Healthineers
 
 Siemens Healthineers is a leading global medical technology company specializing in **innovative healthcare solutions**. They develop and manufacture **advanced imaging, diagnostic, and therapeutic systems**, including MRI and CT scanners, laboratory diagnostics, and robotic-assisted surgery technologies. Their focus is on improving **patient outcomes, enhancing healthcare efficiency, and driving digital transformation** through AI-powered diagnostics, automation, and data-driven decision-making. With a strong emphasis on **precision medicine and personalized healthcare**, Siemens Healthineers plays a key role in shaping the future of medical technology.
 
