@@ -197,10 +197,10 @@ Linova is a **software consulting company** based in Munich, specializing in **c
 
 ### Research Associates
 
-- **Felix Mahr, M.Sc.**  
+- **Felix Mahr**  
     Friedrich-Alexander-Universität  
     Fertigungsautomatisierung und Produktionssystematik
 
-- **Leander Pfeiffer, B.Sc.**  
+- **Leander Pfeiffer**  
     Technical University of Munich  
     Mechanical Engineering
