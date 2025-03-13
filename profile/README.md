@@ -15,7 +15,7 @@ _Unlocking the Future of Industrial Training & Maintenance with Artificial Intel
 </p>
 <br clear="both"/>
 
-Artificial intelligence is rapidly transforming both our personal lives and the way we work. In this Ferienakademie, we will explore groundbreaking innovations in industrial training and maintenance, leveraging the power of generative Artificial Intelligence (AI), Virtual Reality (VR), and other cutting-edge technologies. Our goal is to assess two real-world scenarios proposed by our industry partners, Siemens Healthineers and Linova, bringing visionary ideas to life.
+Artificial intelligence is rapidly transforming both our personal lives and the way we work. In this Ferienakademie, we will explore groundbreaking innovations in industrial training and maintenance, leveraging the power of generative Artificial Intelligence (genAI), Virtual Reality (VR), Augmented Reality (AR) and other cutting-edge technologies. Our goal is to assess two real-world scenarios proposed by our industry partners, Siemens Healthineers and Linova, bringing visionary ideas to life.
 
 ## Industrial training
 
@@ -41,21 +41,21 @@ Autonomous drones equipped with vision systems can inspect hard-to-reach areas, 
 
 Predictive maintenance platforms leverage historical data and sensor feedback to anticipate failures before they happen. Spare parts are automatically ordered and dispatched, ensuring repairs happen before breakdowns occur.  
 
-With digital twins, drone-assisted inspections, and AI-driven automation, industrial maintenance transforms from a reactive process into a seamless, predictive system. The result? Reduced downtime, lower costs, and a future where machines maintain themselves.
+With digital twins, drone-assisted inspections, and genAI-driven automation, industrial maintenance transforms from a reactive process into a seamless, predictive system. The result? Reduced downtime, lower costs, and a future where machines maintain themselves.
 
 ## Course organization
 
-Participants will work in agile, self-organized teams, fostering an environment of collaboration and independent problem-solving. While prior experience with AI or VR is not required, students should bring a strong interest in emerging technologies and a willingness to engage with new concepts. This project offers an opportunity to develop practical skills, exchange knowledge with peers, and contribute to innovative solutions in a dynamic and interdisciplinary setting.
+Participants will work in agile teams, fostering an environment of collaboration and independent problem-solving. While prior experience with AI or VR is not required, students should bring a strong interest in emerging technologies and a willingness to engage with new concepts. This project offers an opportunity to develop practical skills, exchange knowledge with peers, and contribute to innovative solutions in a dynamic and interdisciplinary setting.
 
 ## Customers
 
 ### Siemens Healthineers
 
-Siemens Healthineers is a leading global medical technology company specializing in **innovative healthcare solutions**. They develop and manufacture **advanced imaging, diagnostic, and therapeutic systems**, including MRI and CT scanners, laboratory diagnostics, and robotic-assisted surgery technologies. Their focus is on improving **patient outcomes, enhancing healthcare efficiency, and driving digital transformation** through AI-powered diagnostics, automation, and data-driven decision-making. With a strong emphasis on **precision medicine and personalized healthcare**, Siemens Healthineers plays a key role in shaping the future of medical technology.
+Siemens Healthineers is a leading global medical technology company specializing in innovative healthcare solutions. They develop and manufacture advanced imaging, diagnostic, and therapeutic systems, including MRI and CT scanners, laboratory diagnostics, and robotic-assisted surgery technologies. Their focus is on improving patient outcomes, enhancing healthcare efficiency, and driving digital transformation through AI-powered diagnostics, automation, and data-driven decision-making. With a strong emphasis on precision medicine and personalized healthcare, Siemens Healthineers plays a key role in shaping the future of medical technology.
 
 ### Linova
 
-Linova is a **software consulting company** based in Munich, specializing in **custom software development** and **digital transformation solutions** for businesses across various industries. They provide **innovative software solutions** that optimize business processes, enhance operational efficiency, and support digital growth. With expertise in areas such as **enterprise software, cloud computing, and data integration**, Linova helps organizations leverage technology to achieve their strategic goals. By focusing on **agile methodologies** and **collaborative partnerships**, Linova delivers tailored solutions that drive long-term success and innovation for their clients.
+Linova is a software consulting company based in Munich, specializing in custom software development and digital transformation solutions for businesses across various industries. They provide innovative software solutions that optimize business processes, enhance operational efficiency, and support digital growth. With expertise in areas such as enterprise software, cloud computing, and data integration, Linova helps organizations leverage technology to achieve their strategic goals. By focusing on agile methodologies and collaborative partnerships, Linova delivers tailored solutions that drive long-term success and innovation for their clients.
 
 ## Course Team
 
