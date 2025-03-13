@@ -4,11 +4,9 @@
 </p>
 <br clear="both"/>
 
-### Ferienakademie 2025 (Draft)
+### Ferienakademie 2025
 
 # Context-based mixed reality support for production
-
-## Course description
 
 _Unlocking the Future of Industrial Training & Maintenance with Artificial Intelligence and Virtual Reality_
 
@@ -19,7 +17,7 @@ _Unlocking the Future of Industrial Training & Maintenance with Artificial Intel
 
 Artificial intelligence is rapidly transforming both our personal lives and the way we work. In this Ferienakademie, we will explore groundbreaking innovations in industrial training and maintenance, leveraging the power of generative Artificial Intelligence (AI), Virtual Reality (VR), and other cutting-edge technologies. Our goal is to assess two real-world scenarios proposed by our industry partners, Siemens Healthineers and Linova, bringing visionary ideas to life.
 
-### Industrial training
+## Industrial training
 
 Traditional manufacturing training often relies on outdated documents, static images, and lengthy manuals. But what if learning new assembly processes could be immersive, interactive, and AI-powered?
 
